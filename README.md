@@ -1,7 +1,7 @@
-# fp-ts-notes
+# fp-ts notes
 
-- TE.tapError: replace error with another one, right is not affected or can be changed
-  ```
+### TE.tapError: replace error with another one, right is not affected or can be changed
+  ```typescript
   async function testTapError() {
   const _testTapError = (te: TE.TaskEither<string, string>) =>
     pipe(
@@ -25,5 +25,4 @@
 }
 
 testTapError();
-  ```
-- 
+```
